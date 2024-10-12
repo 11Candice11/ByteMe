@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // Import HtmlWebpackPlugin
 
 module.exports = {
-  entry: './src/App.js', // Entry point of your application
+  entry: './src/index.js', // Entry point of your application
   output: {
     filename: 'bundle.js', // Output file name
     path: path.resolve(__dirname, 'dist'), // Output directory
