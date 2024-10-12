@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'ByteMe'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_17A08D399D34467A9BAABB4AC4B00E7D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_02D9486F1CBC45A6B7E24FC07A0AC600 }}
           package: .
